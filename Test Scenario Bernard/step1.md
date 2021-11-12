@@ -6,4 +6,4 @@ clone docker repository from my github:
 start the server using docker compose:
 `cd docker-lamp`{{execute}}
 
-`docker compose up -d`{{execute}}
+`docker-compose up -d`{{execute}}
