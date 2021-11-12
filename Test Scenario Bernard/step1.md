@@ -1,7 +1,10 @@
 # Heading for Step 1
 
-This is some text.
+clone repository from github:
 
-hello world:
+`git clone https://github.com/bernardlau171/docker-lamp`{{execute}}
 
-`printf 'Hello, world!\n\n'`{{execute}}
+start the server using docker compose:
+`cd docker-lamp`{{execute}}
+
+docker compose up -d
