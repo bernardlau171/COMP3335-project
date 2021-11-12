@@ -2,6 +2,6 @@
 
 This is some text.
 
-Here's a single line of runnable code:
+hello world:
 
 `printf 'Hello, world!\n\n'`{{execute}}
