@@ -27,6 +27,7 @@
   },
   "environment": {
     "uilayout": "terminal"
+    "code": "foreground.sh"
   },
   "backend": {
     "imageid": "ubuntu:2004"
