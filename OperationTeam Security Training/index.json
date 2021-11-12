@@ -1,1 +1,26 @@
-
+{
+  "title": "Database security training for operation team",
+  "description": "This scenario is for the operation team to understand more about security in our woocommerce database",
+  "difficulty": "Hard",
+  "time": "5 min",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
