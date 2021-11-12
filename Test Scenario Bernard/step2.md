@@ -1,7 +1,5 @@
 # Heading for Step 2
+Access database:
+https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
 
-This is some text.
-
-Here's a single line of runnable code:
-
-`printf 'Jello, world!\n\n'`{{execute}}
+`docker exec -it docker-lamp_db_1_mysql -u user -ptest`{{execute}}
