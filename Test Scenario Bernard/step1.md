@@ -5,4 +5,4 @@
 start the server using docker compose:
 `cd docker-lamp`{{execute}}
 
-docker compose up -d
+`docker compose up -d`{{execute}}
