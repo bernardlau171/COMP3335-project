@@ -1,6 +1,7 @@
 # Heading for Step 1
 
-
+clone docker repository from my github:
+`git clone https://github.com/bernardlau171/docker-lamp`{{execute}}
 
 start the server using docker compose:
 `cd docker-lamp`{{execute}}
