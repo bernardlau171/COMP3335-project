@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
+  "title": "Test scenario by Bernard",
   "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "3 minutes",
+  "difficulty": "0",
+  "time": "10 seconds",
   "details": {
     "steps": [
       {
