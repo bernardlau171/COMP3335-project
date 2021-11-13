@@ -1,8 +1,8 @@
 {
-  "title": "General Security Training Course",
-  "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "10 seconds",
+  "title": "General training course",
+  "description": "General training scenario about the e-commerce store suitable for every team.",
+  "difficulty": "Low",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
