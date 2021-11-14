@@ -5,4 +5,3 @@ cd docker-lamp
 docker-compose up -d
 echo "Setup is complete"
 docker exec -it mysqldb bash
-mysql -u root -p
