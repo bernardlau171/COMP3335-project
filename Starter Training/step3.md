@@ -9,6 +9,6 @@ Then, login using the following command, in this demo, we are going to login as 
 
 `mysql -u root -p`{{execute}}
 
-When prompted to enter the password, simply type 12345.
+When prompted to enter the password, simply type 12345, and press enter.
 
 And You have logged in and could access the databases!
