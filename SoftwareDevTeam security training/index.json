@@ -2,7 +2,7 @@
   "title": "Database security training for software development team",
   "description": "This scenario is for the software development team to better understand security in our woocommerce database",
   "difficulty": "Hard",
-  "time": "5 min",
+  "time": "15 min",
   "details": {
   "steps": [
       {
