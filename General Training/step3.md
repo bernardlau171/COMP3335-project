@@ -1,7 +1,7 @@
 # Accessing the database
 
-The database we are using is mysql database,
-to access the database, use the following command to execute a bash shell in the database container:
+The image we are using is mysql,
+to access the server, we first use the following command to execute a bash shell in the database container:
 
 `docker exec -it mysqldb bash`{{execute}}
 
