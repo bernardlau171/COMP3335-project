@@ -1,4 +1,4 @@
-#Accessing the database
+# Accessing the database
 
 `docker exec -it mysqldb bash`{{execute}}
 
