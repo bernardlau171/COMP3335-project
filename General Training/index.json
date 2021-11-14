@@ -1,7 +1,7 @@
 {
-  "title": "General training course",
-  "description": "General training scenario about the e-commerce store suitable for every team.",
-  "difficulty": "Low",
+  "title": "Starter training course",
+  "description": "Starter training scenario about the e-commerce store suitable for every team.",
+  "difficulty": "Easy",
   "time": "15 minutes",
   "details": {
     "steps": [
