@@ -4,7 +4,7 @@ In this demo, a list of tables is created to simulate what we might have in a da
 
 `Show tables;`{{execute}}
 
-These tables includes the store's customer data, staff data, goods data and so on.
+These tables includes the store's transaction data, staff data, goods data and so on.
 
 Of course, you could also use any sql statements in the terminal here for more information.
 
