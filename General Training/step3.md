@@ -1,9 +1,14 @@
 # Accessing the database
 
+The database we are using is mysql database,
+to access the database, use the following command to execute a bash shell in the database container:
+
 `docker exec -it mysqldb bash`{{execute}}
 
-This is some text.
+Then, login using the following command, in this demo, we are going to login as the root user, use -u to specify the user and -p to specify that it has password:
 
-Here's a single line of runnable code:
+`mysql -u root -p`{{execute}}
 
-`printf 'Cello, world!\n\n'`{{execute}}
+When prompted to enter the password, simply type 12345.
+
+
