@@ -8,7 +8,7 @@ Command:
 
 Now we go into the cloned file:
 
-command: `cd docker-lamp`{{execute}}
+Command: `cd docker-lamp`{{execute}}
 
 
 And start up the servers for the scenario using a virtualization software called docker. Note that it may take some time to set up:
