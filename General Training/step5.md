@@ -6,6 +6,8 @@ In this demo, a list of tables is created to simulate what we might have in a da
 
 These tables includes the store's customer data, staff data, goods data and so on.
 
+You could use any sql statements in the terminal here for more information!
+
 
 while there is a lot more different tables in a actual woocommerce environment, similar to the picture below:
 
