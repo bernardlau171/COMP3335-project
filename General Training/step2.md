@@ -1,4 +1,4 @@
-#Accessing the database:
+# Accessing the database:
 
 Now that you have setup the server and database, the website could be accessed via your browser, and database could be accessed using the terminal on the right!
 
