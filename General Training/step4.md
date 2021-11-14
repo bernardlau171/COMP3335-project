@@ -1,3 +1,5 @@
-# Heading for Step 4
+# Using the database
 
-Test for step 4
+Now, we connect to our database using the command:
+
+
