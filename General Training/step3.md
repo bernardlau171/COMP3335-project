@@ -11,4 +11,4 @@ Then, login using the following command, in this demo, we are going to login as 
 
 When prompted to enter the password, simply type 12345.
 
-
+And You have logged into the database!
