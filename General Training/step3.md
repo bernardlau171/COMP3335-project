@@ -1,4 +1,6 @@
-# Heading for Step 3
+#Accessing the database
+
+`docker exec -it mysqldb bash`{{execute}}
 
 This is some text.
 
