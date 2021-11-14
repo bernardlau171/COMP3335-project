@@ -19,6 +19,6 @@ If you see a page like this:
 
 Success! You have set up your own wordpress site!
 
-If you keep on using the site, it will lead you through the proccess of setting up it up, this is not this course's main focus though, so you may close the site and continue.
+If you keep on using the site, it will lead you through the proccess of setting it up, this is not this course's main focus though, so you may close the site and continue.
 
 
