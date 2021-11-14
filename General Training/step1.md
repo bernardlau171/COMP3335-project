@@ -6,8 +6,9 @@ Command:
 `git clone https://github.com/bernardlau171/docker-lamp`{{execute}}
 
 
-Now we go into the cloned file: \n
+Now we go into the cloned file:
 `cd docker-lamp`{{execute}}
+
 
 And start up the servers for the scenario using a virtualization software called docker. Note that it may take some time to set up:
 `docker-compose up -d`{{execute}}
