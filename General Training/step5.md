@@ -4,6 +4,8 @@ In this demo, a list of tables is created to simulate what we might have in a da
 
 `Show tables;`{{execute}}
 
+These tables includes the store's customer data, staff data, goods data and so on.
+
 
 while there is a lot more different tables in a actual woocommerce environment, similar to the picture below:
 
