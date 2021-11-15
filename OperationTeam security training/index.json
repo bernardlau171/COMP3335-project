@@ -1,8 +1,8 @@
 {
   "title": "Database security training for operation team",
-  "description": "This scenario is for the operation team to understand more about security in our woocommerce database",
-  "difficulty": "Hard",
-  "time": "5 min",
+  "description": "This scenario is for the operation team to understand more about security in our database",
+  "difficulty": "Intermediate",
+  "time": "20 min",
   "details": {
     "steps": [
       {
