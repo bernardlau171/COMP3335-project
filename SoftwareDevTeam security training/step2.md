@@ -15,9 +15,8 @@ The user table's name is "person", so, use the sql statement `select * from user
 
 They are assigned to different teams, indicated by the tid, use `select * from team;`{{execute}} to show the list of teams
 
-Now that we know what team each user is in, we can start configuring the privileges.
-
-Lets choose Marc from the software development team as an example.
+Now that we know what team each user is in, we can start configuring the privileges. Lets choose Marc from the software development team as an example.
 
 Use the statement `show grants for 'Marc';`{{execute}} to show what privileges has been granted.
 
+You should see a bunch of privileges being assigned to him because the privileges in this database is not well configured, lets try to fix it!
