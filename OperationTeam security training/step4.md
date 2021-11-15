@@ -8,7 +8,10 @@ The following step will show the step of backup all the data in the database and
 1. copy the volume(the data file of the database) to a .tar file:
 `docker run --volumes-from mysqldb -v $(pwd):/backup ubuntu tar cvf /backup/alldata.tar /docker-entrypoint-initdb.d`{{execute}}
 
-2. put the volume you just copy into the container you are running:
+2. check whether there is a .tar file called "alldata"
+`ls`{{excute}}
+
+3. put the volume you just copy into the container you are running:
 `docker run --rm --volumes-from mysqldb -v $(pwd):/backup ubuntu tar xvf /backup/alldata.tar`{{execute}}
 
-3. Data in the backup can be use in the container again.
+4. Data in the backup can be use in the container again.
