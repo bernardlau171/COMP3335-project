@@ -1,8 +1,6 @@
 # Database security - Privileges
 
-An appropriate amount of privileges for different staff on different positions is very important in ensuring database security. 
-
-Too little privileges will make working in databases inefficient, while too much might lead to potential security concerns. 
+An appropriate amount of privileges for different staff on different positions is very important in ensuring database security. Too little privileges will make working in databases inefficient, while too much might lead to potential security concerns. 
 
 For instance, no matter how well protected the software is developed to be by you, the dev team, when too much privilege is assigned to more users, and any one of the accounts are leaked, malicious third party will be able to alter the database as they like. 
 
