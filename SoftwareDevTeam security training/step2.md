@@ -12,3 +12,5 @@ To achieve that, we first check the privileges different users have right now.
 The user table's name is "person", so, use the sql statement `select * from users;`{{execute}} to show the list of users in the database
 
 They are assigned to different teams, indicated by the tid, use `select * from team;`{{execute}} to show the list of teams
+
+Now that
