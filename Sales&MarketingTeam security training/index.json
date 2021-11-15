@@ -1,8 +1,8 @@
 {
   "title": "Database security training for sales & marketing team",
-  "description": "This scenario is for the sales & marketing team to better understand security in our woocommerce database",
-  "difficulty": "Hard",
-  "time": "15 min",
+  "description": "This scenario is for the sales & marketing team to better understand security in our database",
+  "difficulty": "Intermediate",
+  "time": "20 min",
   "details": {
   "steps": [
       {
