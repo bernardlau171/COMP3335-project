@@ -20,3 +20,4 @@ Now that we know what team each user is in, we can start configuring the privile
 Use the statement `show grants for 'Marc';`{{execute}} to show what privileges has been granted.
 
 You should see a bunch of privileges being assigned to him because the privileges in this database is not well configured, lets try to fix it!
+
