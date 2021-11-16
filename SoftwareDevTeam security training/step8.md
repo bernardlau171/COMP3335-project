@@ -1,4 +1,4 @@
-#Mysql general log enable
+# Mysql general log enable
 
 As acttacker may try to access our database. Therefore, We should audit log with users in the database. 
 
