@@ -22,6 +22,7 @@ Payment Card Industry Data Security Standard (PCI DSS) on Database:
 
 
 
+
 General Data Protection Regulation (GDPR) requirements :
 
 • Assessment	–	Processes,	Profiles,	Data	Sensitivity,	Ricks	
