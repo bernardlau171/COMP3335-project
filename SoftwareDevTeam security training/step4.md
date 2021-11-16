@@ -5,6 +5,8 @@ Introduction video of the SSO solutions:
 .
 
 
+.
+
 Now, let's set Up Kubernetes SSO with SAML:
 
 1.Install KOPS Kubernetes cluster 
