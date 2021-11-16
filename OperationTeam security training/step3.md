@@ -7,7 +7,7 @@ The following step will show the step of backup all the data in the database and
 1. get into the directory(volume of mysqldb):
 `cd /docker-entrypoint-initdb.d`{{execute}}
 
-2. backup the mysqldb into a .sql file:
+2. backup the mysqldb into a .sql file(root password default as "12345"):
 `mysqldump -u root -p --alldatabases > backup.sql;`{{execute}}
 
 3. check whether there are a .sql file called "backup":
