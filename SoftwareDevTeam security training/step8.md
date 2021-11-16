@@ -33,3 +33,5 @@ we can click the activity log page and view the events in the database. we also 
 ![gppin8.png](./assets/gppin8.png)
 ![gppin9.png](./assets/gppin9.png)
 ![gppin10.png](./assets/gppin10.png)
+
+*More details on https://www.youtube.com/watch?v=57wm56bSH9o
