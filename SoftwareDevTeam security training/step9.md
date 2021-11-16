@@ -6,7 +6,7 @@ Here we will talk about how to enable the audit log in wrdpress.
 Accessing website by 20080 port.
 https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/
 
-we access the wordpress website and select the plugins. 
+You access the wordpress website and select the plugins. 
 
 ![gppin1.png](./assets/gppin1.png)
 
@@ -14,19 +14,19 @@ Please enter log in the search box to find a suitable audit log for your databas
 
 ![gppin2.png](./assets/gppin2.png)
 
-Here we will select the Activity Log to demo the process of the audit log. we need to click the install now button in the top right corner.
+Here You will select the Activity Log to demo the process of the audit log. You need to click the install now button in the top right corner.
 
 ![gppin3.png](./assets/gppin3.png)
 
-After we install the activity log, we also need to activate it.
+After You install the activity log, You also need to activate it.
 
 ![gppin4.png](./assets/gppin4.png)
 
-if the activity log is activated, we can see the activity log in our plugins page.
+if the activity log is activated, You can see the activity log in our plugins page.
 
 ![gppin5.png](./assets/gppin5.png)
 
-we can click the activity log page and view the events in the database. we also can filter the events by time, roles, user, topics, actions.  
+You can click the activity log page and view the events in the database. You also can filter the events by time, roles, user, topics, actions.  
 
 ![gppin6.png](./assets/gppin6.png)
 
