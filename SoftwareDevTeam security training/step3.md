@@ -1,4 +1,3 @@
-page 3
 Database security - Password Validation 
 
 The most common mechanism for online authentication is password-based authentication. However, passwords are frequently set to be short, made up of predictable words and phrases that are also semantically related. Reddit, Twitter, and Yahoo! also pointed out that the hackers can easily guess the passwords or crack the password files. As to strengthen the existing of password-based authentication and authorization, MEDIUM password policy should be inplaced. 
