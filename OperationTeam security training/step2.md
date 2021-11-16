@@ -9,4 +9,13 @@ Here is a quick video introducing what Principle of Least Privilege is, and an e
 
 While the operation team does not have to temper with the privileges of the users, there are also things you could do to help to improve the configuration of privileges.
 
-This link shows the 
+The operation team should have a sweet spot of privileges for them to be working effeciently, for example, you should be able to select, update, delete and insert entries in table.
+
+To check that, say you are William from the operation team, login using the following command:
+
+`mysql -u William -p12345`{{execute}}
+
+Then use the command `show grants`{{execute}} to show your privileges.
+
+You should see a bunch of privileges popping up, indicating that you might have more privileges than intended. It could mean that privileges in teams or you as an individual case are not well configured, either way, it is advised that you immediately report to the IT department.
+
