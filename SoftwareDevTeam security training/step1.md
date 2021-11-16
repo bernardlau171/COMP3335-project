@@ -12,7 +12,7 @@ First,we need to backup the table of wp_wc_customer_lookup,this table collect th
 
 After backup the information is backup,we need to do change all the personal identifiable information become *** on the database so that the personal identifiers will hide.
 
-`update wp_wc_customer_lookup set username = '***',where username LIKE "%%";`{{execute}}
+`update wp_wc_customer_lookup set username = '***',email='***',first_name='***',postcode='***',city='***'  where username LIKE "%%";`{{execute}}
 
 You can this this sql query to check the table.
 
