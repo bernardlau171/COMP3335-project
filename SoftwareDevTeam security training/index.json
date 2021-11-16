@@ -1,8 +1,8 @@
 {
   "title": "Database security training for software development team",
   "description": "This scenario is for the software development team to better understand security in the database",
-  "difficulty": "Intermediate",
-  "time": "20 min",
+  "difficulty": "Hard",
+  "time": "30 min",
   "details": {
   "steps": [
       {
