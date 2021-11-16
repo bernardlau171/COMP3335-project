@@ -5,6 +5,8 @@ Introduction video of the SSO solutions:
 
 
 
+
+
 Payment Card Industry Data Security Standard (PCI DSS) on Database: 
 
 • Requirement 2: Not Using Vendor Default Passwords and Security Settings
