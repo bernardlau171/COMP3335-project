@@ -23,12 +23,6 @@ Now, let's set Up Kubernetes SSO with SAML.
 2.Setup G Suite as an OIDC provider
                   
 3.Setup Kubernetes API server
-`Run kops edit cluster command and append the following settings.
- spec:
-  kubeAPIServer:
-    oidcIssuerURL: https://accounts.google.com
-    oidcClientID: YOUR_CLIENT_ID
-    oidcUsernameClaim: email`
                   
 4.Configure the cluster permissions
                   
