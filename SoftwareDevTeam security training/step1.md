@@ -10,11 +10,13 @@ First,we need to backup the table of wp_wc_customer_lookup,this table collect th
 
  `ls`{{execute}}
 
-After backup the information is backup,we need to do change all the personal identifiable information become "XXX" on the database so that the personal identifiers will hide.
+After backup the information is backup,we need to do change all the personal identifiable information become *** on the database so that the personal identifiers will hide.
 
-`update wp_wc_customer_lookup set username = "XXX",where username LIKE "%%";`{{execute}}
+`update wp_wc_customer_lookup set username = '***',where username LIKE "%%";`{{execute}}
 
 You can this this sql query to check the table.
 
 `select * from wp_wc_customer_lookup;`{{execute}}
 
+And the dashboard of the Wordpress/ WooCommerce platform will show *** of the information of the user.
+![step1_pic1.png](./assets/step1_pic1.png)
