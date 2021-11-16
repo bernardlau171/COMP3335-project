@@ -9,21 +9,5 @@ Introduction video of the SSO solutions:
 
 Now, let's set Up Kubernetes SSO with SAML:
 
-1.Install KOPS Kubernetes cluster 
-
-2.Setup G Suite as an OIDC provider
-                  
-3.Setup Kubernetes API server
-                  
-4.Configure the cluster permissions
-                  
-5.Setup the kubeconfig
-                  
-6.Setup the kubelogin
-                  
-7.Verify the cluster access
-                  
-8.On-boarding and Off-boarding process
-                  
-
-                 
+![sso](./assets/sso.gif)      
+      
