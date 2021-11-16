@@ -15,6 +15,6 @@ To check that, say you are John from the sales and marketing team, login using t
 
 `mysql -u John -p45641`{{execute}}
 
-Then use the command `show grants`{{execute}} to show your privileges.
+Then use the command `show grants;`{{execute}} to show your privileges.
 
 You should see a bunch of privileges popping up, indicating that you might have more privileges than intended. It could mean that privileges in teams or you as an individual case are not well configured, either way, it is advised that you immediately report to the IT department.
