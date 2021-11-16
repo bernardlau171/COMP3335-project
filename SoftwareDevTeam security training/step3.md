@@ -2,7 +2,7 @@
 
 First lets revoke all privileges from John and start from the beginning. `REVOKE ALL PRIVILEGES ON *.* from 'John'@'%';`{{execute}}
 
-Because John is in the sales and marketing team, he should be able to temper with the contents in the table, but not the database.
+Because John is in the sales and marketing team, he should be able to add and read contents in the tables.
 
 For easier configuration to later users, we should create roles to address privileges in different teams.
 
