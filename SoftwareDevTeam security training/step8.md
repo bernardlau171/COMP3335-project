@@ -24,3 +24,7 @@ if the activity log is activated, we can see the activity log in our plugins pag
 we can click the activity log page and view the events in the database. we also can filter the events by time, roles, user, topics, actions.  
 
 ![gppin6.png](./assets/gppin6.png)
+![gppin7.png](./assets/gppin7.png)
+![gppin8.png](./assets/gppin8.png)
+![gppin9.png](./assets/gppin9.png)
+![gppin10.png](./assets/gppin10.png)
