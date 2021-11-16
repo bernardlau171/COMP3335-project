@@ -7,7 +7,7 @@ Introduction video of the SSO solutions:
 
 .
 
-Now, let's set Up Kubernetes SSO with SAML:
+Now, let's watch the set up of Kubernetes SSO with SAML:
 
 ![sso](./assets/sso.gif)      
       
