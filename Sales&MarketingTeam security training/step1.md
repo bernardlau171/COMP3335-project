@@ -14,3 +14,7 @@ Use the following statement to configure a new password, for simpler implementat
 `ALTER USER 'John' IDENTIFIED BY 'newPass';`{{execute}}
 
 Success! Now you have updated your password!
+
+Below is a quick tutorial on how to create a strong password:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aEmF3Iylvr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
