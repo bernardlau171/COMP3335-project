@@ -1,3 +1,5 @@
-Welcome to the Course!
+Welcome to the security training Course!
 
-In this course, you will learn some basics about how our e-commerce store is set up, and how to access our databases in the backend without the gui in our website!
+Security is of the utmost importance while maintaining a database, our woocommerce wordpress database is no exception. In this course, you will learn more about how as a member of the software development team, can you improve the security in the database. 
+
+Ps. Remember to take the starter course first if you haven't already!
