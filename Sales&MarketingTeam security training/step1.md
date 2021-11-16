@@ -11,6 +11,6 @@ The default password is 45641, which is a simple number combination and could ea
 We recommend a password with a combination of numbers, uppercase letters, lowercase letters and special characters (eg. $,%,* etc)
 
 Use the following statement to configure a new password, for simpler implementation in this sample scenario, lets use newPass as the new password:
-`ALTER USER 'John' IDENTIFIED BY 'newPass';`
+`ALTER USER 'John' IDENTIFIED BY 'newPass';`{{execute}}
 
 Success! Now you have updated your password!
