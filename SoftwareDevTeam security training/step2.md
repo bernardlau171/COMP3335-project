@@ -9,6 +9,8 @@ Here is a quick video introducing what Principle of Least Privilege is, and an e
 
 To achieve PoLP, we must first check the privileges different users have right now.
 
+(If you haven't login, use the command `mysql -u root -p` and the password 12345 to login)
+
 In the hypothetical scenario,
 
 The user table's name is "person", so, use the sql statement `select * from person;`{{execute}} to show the list of users in the database
