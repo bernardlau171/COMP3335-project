@@ -5,7 +5,7 @@ The most common mechanism for online authentication is password-based authentica
 Defualt MEDIUM password policy required passwords must contain at least 1 numeric character, 1 lowercase character, 1 uppercase character, and 1 special (nonalphanumeric) character.
 
 Password Validation Component Installation:
-`INSTALL COMPONENT 'file://component_validate_password';` {{execute}} 
+`INSTALL COMPONENT 'file://component_validate_password';`{{execute}} 
 
 If the validate_password component is enabled, it exposes several system variables that enable configuration of password checking:
 `SHOW VARIABLES LIKE 'validate_password.%';`{{execute}} 
