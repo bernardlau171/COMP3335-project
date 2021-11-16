@@ -3,7 +3,7 @@
 Once attacker hack into the database system, Attacker may damage the data in the database.
 To keep the data save before the attacker attack, you can backup data regularly. The time period is recommended at least once per week.
 
-The following step will show the step of backup all the data in the database and retrive it in the same database to show what to do if the data is largely damaged with docker command:
+The following step will show the step of backup all the data in the database and retrive it in the same database to show what to do if the data is largely damaged with docker command with root account:
 1. get into the directory(volume of mysqldb):
 `cd /docker-entrypoint-initdb.d`{{execute}}
 
