@@ -8,13 +8,13 @@ For easier configuration to later users, we should create roles to address privi
 
 Lets use t1, t2, t3 to represent operation team, software development team and sales and marketing team respectively.
 
-use the statement `CREATE ROLE 't1','t2','t3';`{{execute}} to create the roles.
+Use the statement `CREATE ROLE 't1','t2','t3';`{{execute}} to create the roles.
 
-For operation team, they should be able to  use the select , insert, update, delete tables for maintaining operations of the store. Use the statement:`GRANT SELECT,INSERT,UPDATE,DELETE ON wordpress.* TO 't1';`{{execute}}to grant these privileges to the role.
+For operation team, they should be able to select , insert, update, delete tables in the wordpress database for maintaining operations of the store. Use the statement:`GRANT SELECT,INSERT,UPDATE,DELETE ON wordpress.* TO 't1';`{{execute}}to grant these privileges to the role.
 
 For software development team, they should be able to do anything because it is better for them to work with softwares if they have all privileges on the database, so we use the statement: `GRANT ALL ON *.* TO 't2';`{{execute}} to grant all permissions.
 
-For sales and marketing team, they should be able to insert and select entries from the tables, but not more, so, we use the statement: `GRANT SELECT,INSERT ON wordpress.* TO 't3';`{{execute}} to grant the needed permissions.
+For sales and marketing team, they should be able to insert and select entries from the tables in the wordpress database, but not more, so, we use the statement: `GRANT SELECT,INSERT ON wordpress.* TO 't3';`{{execute}} to grant the needed permissions.
 
 And there we go! We have successfully create the roles needed to assign to different teams.
 
