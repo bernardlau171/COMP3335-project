@@ -23,4 +23,11 @@ You should see a bunch of privileges being assigned to him because the privilege
 
 First lets revoke all privileges from Marc and start from the beginning. `REVOKE ALL PRIVILEGES ON *.* from 'Marc'@'%';`{{execute}}
 
-Because Marc is 
+Because Marc is in the software development team, he should be given enough privileges to deal with the structure in the database, while not be able to read data from the tables involving the operations of the store.
+
+For easier configuration to later users, we should create roles to address privileges in different teams.
+
+CREATE ROLE 'soft','manager','admin';
+GRANT ALL ON *.* TO 'admin';
+GRANT SELECT,INSERT,UPDATE,DELETE ON *.* TO 'manager';
+GRANT SELECT,INSERT ON *.* TO 'staff';
