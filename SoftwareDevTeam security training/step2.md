@@ -41,5 +41,5 @@ And there we go! We have successfully create the roles needed to assign to diffe
 
 Lets go back to the example of John, we should assign the role 't3' to him, use the statement:`grant 't3' to 'John';`{{execute}}
 
-Now if we show grants:`show grants for 'John';`{{execute}}, you should see that he only has the privilege of t3. Success!
+Now if we show grants:`show grants for 'John';`{{execute}}, you should see that he only has the privilege of t3. Success! Then, if you grant the appropriate role to different employees, the privilege in this database will be much more clear and secure.
 
