@@ -21,3 +21,6 @@ Use the statement `show grants for 'Marc';`{{execute}} to show what privileges h
 
 You should see a bunch of privileges being assigned to him because the privileges in this database is not well configured, lets try to fix it!
 
+First lets revoke all privileges from Marc and start from the beginning. `REVOKE ALL PRIVILEGES ON *.* from 'Marc'@'%';`{{execute}}
+
+Because Marc is 
