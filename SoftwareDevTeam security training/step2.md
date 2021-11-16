@@ -11,7 +11,7 @@ To achieve PoLP, we must first check the privileges different users have right n
 
 In the hypothetical scenario,
 
-The user table's name is "person", so, use the sql statement `select * from users;`{{execute}} to show the list of users in the database
+The user table's name is "person", so, use the sql statement `select * from person;`{{execute}} to show the list of users in the database
 
 They are assigned to different teams, indicated by the tid, use `select * from team;`{{execute}} to show the list of teams
 
@@ -35,7 +35,7 @@ For operation team, they should be able to  use the select , insert, update, del
 
 For software development team, they should be able to do anything because it is better for them to work with softwares if they have all privileges on the database, so we use the statement: `GRANT ALL ON *.* TO 't2';`{{execute}} to grant all permissions.
 
-For sales and marketing team, they should be able to insert and select entries from the tables, but not more, so, we use the statement: `GRANT SELECT,INSERT ON wordpress.* TO 'staff';`{{execute}} to grant the needed permissions.
+For sales and marketing team, they should be able to insert and select entries from the tables, but not more, so, we use the statement: `GRANT SELECT,INSERT ON wordpress.* TO 't3';`{{execute}} to grant the needed permissions.
 
 And there we go! We have successfully create the roles needed to assign to different teams.
 
