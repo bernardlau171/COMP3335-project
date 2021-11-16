@@ -17,6 +17,7 @@ After backup the information is backup,we need to do change all the personal ide
 You can this this sql query to check the table.
 
 `select * from wp_wc_customer_lookup;`{{execute}}
+This is the sample of after using the command of update.Those personal identifiable is changed by ***.
 ![step1_pic2.png](./assets/step1_pic2.png)
 
 And the dashboard of the Wordpress/ WooCommerce platform will show *** of the information of the user.
