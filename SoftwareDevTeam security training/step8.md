@@ -1,6 +1,6 @@
 # Mysql general log enable
 
-As acttacker may try to access our database. Therefore, We should audit log with users in the database. 
+As database may face threat from external and internal attacks. Therefore, We should audit log with users to prevent the acttack in the database. 
 
 Therefore,you can follow those steps to active the audit log to record the event for users in the database.
 
