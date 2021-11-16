@@ -11,6 +11,8 @@ To achieve PoLP, we must first check the privileges different users have right n
 
 (If you haven't login, use the command `mysql -u root -p` and the password 12345 to login)
 
+Use the default mysql database wordpress by this statement: `use wordpress`{{execute}}
+
 In the hypothetical scenario,
 
 The user table's name is "person", so, use the sql statement `select * from person;`{{execute}} to show the list of users in the database
