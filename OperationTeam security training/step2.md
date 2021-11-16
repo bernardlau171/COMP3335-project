@@ -9,4 +9,4 @@ Here is a quick video introducing what Principle of Least Privilege is, and an e
 
 While the operation team does not have to temper with the privileges of the users, there are also things you could do to help to improve the configuration of privileges.
 
-This 
+This link shows the 
