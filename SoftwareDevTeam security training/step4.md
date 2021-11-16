@@ -1,7 +1,7 @@
 Single Sign-On (SSO)
 
 Introduction video of the SSO solutions: 
-<iframe width="560" height="315" src="https://youtu.be/mys7IhNKRTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src=""https://www.youtube-nocookie.com/embed/mys7IhNKRTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .
 
