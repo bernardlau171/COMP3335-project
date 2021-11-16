@@ -55,4 +55,4 @@ The following step will show the step of backup all the data in the database and
 17.let the mysql use the data in the backup file:
 `mysql -u root -p < docker-entrypoint-initdb.d/backup.sql`{{execute}}
 
-18. done
+18.done
