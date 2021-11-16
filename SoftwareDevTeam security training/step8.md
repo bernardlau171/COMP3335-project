@@ -16,7 +16,9 @@ You can use `select * from general_log;`{{execute}} to show the events with user
 
 ![gpgen1](./assets/gpgen1.png)
 
+You also can use `select  event_time as timestamp, user_host, convert(argument using utf8) as argument from general_log where command_type='Query' order by event_time desc limit 0,10;`{{execute}} to show the most recent 10 SQL statements executed by users in the database.
 
+![gpgen2](./assets/gpgen2.png)
 
 
 
