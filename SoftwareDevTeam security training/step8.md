@@ -1,3 +1,5 @@
+#Mysql general log enable
+
 As acttacker may try to access our database. Therefore, We should audit log with users in the database. 
 
 Therefore,you can follow those steps to active the audit log to record the event for users in the database.
