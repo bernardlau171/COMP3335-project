@@ -16,3 +16,11 @@ Here we will select the Activity Log to demo the process of the audit log. we ne
 After we install the activity log, we also need to activate it.
 
 ![gppin4.png](./assets/gppin4.png)
+
+if the activity log is activated, we can see the activity log in our plugins page.
+
+![gppin5.png](./assets/gppin5.png)
+
+we can click the activity log page and view the events in the database. we also can filter by time, roles, user, topics, actions.  
+
+![gppin6.png](./assets/gppin6.png)
