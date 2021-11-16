@@ -7,7 +7,7 @@ Introduction video of the SSO solutions:
 
 Now, let's set Up Kubernetes SSO with SAML.
 
-Install KOPS Kubernetes cluster running the following command:
+1.Install KOPS Kubernetes cluster running the following command:
 `kops create cluster dev.automateops.co.uk \
   --node-count 1 \
   --zones us-west-2a \
@@ -19,5 +19,20 @@ Install KOPS Kubernetes cluster running the following command:
   --bastion="true" \
   --state=s3://dev.autotameops.co.uk-state-store \
   --kubernetes-version=1.14.6 --yes`
+
+2.Setup G Suite as an OIDC provider
+                  
+3.Setup Kubernetes API server
+                  
+4.Configure the cluster permissions
+                  
+5.Setup the kubeconfig
+                  
+6.Setup the kubelogin
+                  
+7.Verify the cluster access
+                  
+8.On-boarding and Off-boarding process
+                  
 
                  
