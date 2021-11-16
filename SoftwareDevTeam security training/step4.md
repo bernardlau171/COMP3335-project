@@ -11,3 +11,4 @@ Now, let's watch the set up of Kubernetes SSO with SAML:
 
 ![sso](./assets/sso.gif)      
       
+*More details on https://thenewstack.io/single-sign-kubernetes-command-line-experience/
