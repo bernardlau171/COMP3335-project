@@ -15,5 +15,6 @@ After backup the information is backup,we need to do change all the personal ide
 `update wp_wc_customer_lookup set username = "XXX",where username LIKE "%%";` {{execute}} 
 
 You can this this sql query to check the table.
+
 `select * from wp_wc_customer_lookup;`{{execute}}
 
