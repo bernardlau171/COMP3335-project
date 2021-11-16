@@ -11,10 +11,6 @@ While the sales and marketing team does not have to temper with the privileges o
 
 The sales and marketing team should have a sweet spot of privileges for them to be working effeciently, for example, you should be able to select and insert in the wordpress database.
 
-To check that, say you are John from the sales and marketing team, login using the following command:
-
-`mysql -u John -p45641`{{execute}}
-
-Then use the command `show grants;`{{execute}} to show your privileges.
+To check that, use the statement `show grants;`{{execute}} to show your privileges.
 
 You should see a bunch of privileges popping up, indicating that you might have more privileges than intended. It could mean that privileges in teams or you as an individual case are not well configured, either way, it is advised that you immediately report the case to the IT department for further inspection.
