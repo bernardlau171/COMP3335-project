@@ -20,7 +20,7 @@ The following step will show the step of backup all the data in the database and
 `docker run --rm --volumes-from mysqldb -v $(pwd):/backup ubuntu tar cvf /backup/alldata.sql /docker-entrypoint-initdb.d/backup.sql`{{execute}}
 
 6. check whether there is a .sql file called "alldata"
-`ls`{{excute}}
+`ls`{{execute}}
 
 7. get into the container:
 `docker exec -it mysqldb bash`{{execute}}
@@ -29,7 +29,7 @@ The following step will show the step of backup all the data in the database and
 `cd /docker-entrypoint-initdb.d`{{execute}}
 
 9. remove the backup file:
-`rm backup.sql`
+`rm backup.sql`{{execute}}
 
 10. check whether there are a .sql file called "backup". if no .sql file called "backup", it is true:
 `ls`{{execute}}
