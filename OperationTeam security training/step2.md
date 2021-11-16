@@ -19,3 +19,4 @@ Then use the command `show grants;`{{execute}} to show your privileges.
 
 You should see a bunch of privileges popping up, indicating that you might have more privileges than intended. It could mean that privileges in teams or you as an individual case are not well configured, either way, it is advised that you immediately report the case to the IT department for further inspection.
 
+(Please use the command `exit`{{execute}} and `mysql -u root -p12345`{{execute}} before moving on to the next step)
